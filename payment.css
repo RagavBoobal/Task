@@ -1,0 +1,105 @@
+body {
+    background: #f2f2f2; 
+  }
+  page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+    align-content: justify;
+    padding-left: 80px;
+    font-family: sans-serif;
+    padding-right: 40px;
+  }
+  page[size="A4"] {  
+    width: 21cm;
+    height: 40cm; 
+  }
+  @media print {
+    body, page {
+      margin: 0;
+      box-shadow: 0;
+    }
+  }
+  
+  #first, #second, #third {
+    
+    height: auto;
+    width: 3em;
+    border: 2px solid #dad9df;
+    outline: none;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 0.3em;
+    background-color: #ffffff;
+    outline: none;
+    -moz-appearance: textfield;
+  
+  }
+
+  #accountName, #accountNo
+  {
+    width: 300px;
+    height:auto;
+  }
+
+  button
+  {
+    width: 300px;
+    background-color: rgb(255, 159, 128);
+    border-radius: 4px;
+    border-color: rgb(255, 159, 128);
+    color:white;
+  }
+
+  .heading
+  {
+    padding-top: 40px;
+    font-size: x-large;
+    font-weight: bold;
+  }
+
+img
+{
+  padding-bottom: 0px;
+}
+.priceAmount
+{
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.messageContent
+{
+  font-weight: bold;
+  font-size: large;
+}
+
+.plan1, .plan2
+{
+  font-weight: bold;
+  font-size: large;
+}
+
+.planAmount1, .planAmount2
+{
+  float: right;
+  padding-right: 60px;
+}
+
+b{
+  font-size: medium;
+}
+
+.fieldName
+{
+  font-size: large;
+}
+
+.lastText
+{
+  font-size: x-large;
+  font-weight: bold;
+  padding-left: 250px;
+}

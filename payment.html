@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>
+            Secure Checkout | Vodafone
+        </title>
+        <link rel="stylesheet" href="payment.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body>
+        <div class="mainContent">
+            <page size="A4">
+                <div class="heading">
+                    Monthly payment
+                </div>
+                <div class="amount">
+                    <center><img src="directDebit.png">
+                    <br>Total monthly payment
+                    <div class="priceAmount">&pound;65</div></center>
+                </div>
+                
+                <div class="messageContent">
+                    <p>Your Airtime/Data Plan(s) and Device Plan(s) payments will be taken 
+                        in separate Direct Debits, and may be on different days.</p>
+                </div>
+                <br><br>
+                <div class="plans"> 
+                    <div class="devicePlan">
+                        <div class="plan1">Device Plan<div class="planAmount1">&pound;28</div></div> 
+                        Samsung Galaxy S23+ 256GB Lavender<br>
+                        36-month Phone Plan
+                    </div>
+                    <br>
+                    <div class="airtimePlan">
+                        <div class="plan2">Airtime Plan & Add-ons <div class="planAmount1">&pound;37</div></div>
+                        24-Months Airtime Plan
+                    </div>
+                </div>
+                <br><br>
+                <div class="accountDetails">
+                    <b>Bank account details</b><br><br>
+                    This should be the bank account registered to your billing address.
+                    <br><br>
+                    14 Birchwood Avenue<br>
+                    Hatfield<br>
+                    AL10 0PW
+                    <br><br>
+
+                    <div class="fieldName">Account holder name</div>
+                    <input type="text" class="w3-input w3-border w3-round-large" id="accountName" >
+                    <br><br>
+
+                    <div class="fieldName">Account number</div>
+                    Must be 8 digits long
+                    <input type="number" class="w3-input w3-border w3-round-large" id="accountNo">
+                    <br><br>
+
+                    <div class="fieldName">Sort code</div>
+                    Must be 6 digits long and include no hyphens
+                    <div class="userInput">
+                        <input type="text" id="first" maxlength="2" >
+                        <input type="text" id="second" maxlength="2" >
+                        <input type="text" id="third" maxlength="2" >
+                    </div>
+
+                </div>
+                <br><br><br>
+
+
+                <div class="footerContent">
+                    We place a great deal of importance on keeping your payments safe and secure. Thats why your
+                    Direct Debit payments are protected by the <a>Direct Debit Guarantee (Terms and Conditions).</a>
+                    <br><br>
+                    Your Airtime Plan and add-ons will be taken by Service User ID 439374 and your Device Plan will
+                    be taken by Service User ID 450865
+                    <br><br>
+                    <input type="checkbox" id="agreeCheckBox"> I agree to the Direct Debit Terms and Conditions and confirm that I am the only account 
+                    holder required to set up a Direct Debit on this account.
+                    <br><br><br>
+                </div id="submitButton">
+                    <button type="button">Continue</button>
+                </div>
+            </page>
+            <div class="lastText">Payment</div>
+        </div>
+    </body>
+</html>
